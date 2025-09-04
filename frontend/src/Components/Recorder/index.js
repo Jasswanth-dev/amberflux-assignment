@@ -81,7 +81,7 @@ const Recorder = () => {
     formData.append("video", recordedBlob, "recording.webm");
 
     try {
-      const res = await API.post("http://localhost:5000/api/upload", formData, {
+      const res = await API.post("/api/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
       console.log("Upload success:", res.data);
