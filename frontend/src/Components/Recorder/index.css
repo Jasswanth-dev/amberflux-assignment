@@ -1,0 +1,9 @@
+.video-player{
+    width: 100%;
+}
+
+.video-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
