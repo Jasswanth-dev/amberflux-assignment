@@ -30,7 +30,7 @@ const App = () => {
         <tbody>
           {
             list.map(each => (
-                <tr key={each.id} onClick={() => window.open(`http://localhost:5000/api/recordings/${each.id}`, "_blank")}>
+                <tr key={each.id} onClick={() => window.open(`https://amberflux-assignment-isat.onrender.com/api/recordings/${each.id}`, "_blank")}>
                   <td>{each.id}</td>
                   <td>{each.filename}</td>
                   <td>{each.size}</td>
